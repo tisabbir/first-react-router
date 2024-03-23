@@ -8,6 +8,9 @@ const Home = () => {
   return (
     <div>
       <Header></Header>
+      <div>
+        <h2>This is the home Land of our website</h2>
+      </div>
       {navigate === "loading" ? "Loading...." : <Outlet></Outlet>}
     </div>
   );
